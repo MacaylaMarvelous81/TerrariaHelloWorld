@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Items\SuperOPSword.cs" />
+    <Compile Include="Items\SuperPickaxe.cs" />
     <Compile Include="Items\SuperSword.cs" />
     <Compile Include="HelloWorld.cs" />
   </ItemGroup>
