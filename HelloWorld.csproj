@@ -33,11 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Items\BlueDirt.cs" />
     <Compile Include="Items\MyFirstTile.cs" />
     <Compile Include="Items\SuperOPSword.cs" />
     <Compile Include="Items\SuperPickaxe.cs" />
     <Compile Include="Items\SuperSword.cs" />
     <Compile Include="HelloWorld.cs" />
+    <Compile Include="Tiles\BlueDirt.cs" />
     <Compile Include="Tiles\MyFirstTile.cs" />
   </ItemGroup>
   <ItemGroup>

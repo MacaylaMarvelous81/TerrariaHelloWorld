@@ -15,7 +15,7 @@ namespace HelloWorld.Items
             item.melee = true;
             item.width = 32;
             item.height = 32;
-            item.useTime = 20;
+            item.useTime = 5;
             item.useAnimation = 20;
             item.pick = 1000;
             item.useStyle = 1;

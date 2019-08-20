@@ -16,7 +16,7 @@ namespace HelloWorld.Tiles
             TileObjectData.newTile.Width = 2; // How many pink squares from left to right
             TileObjectData.newTile.Height = 2; // How many pink squares from top to bottom
             TileObjectData.newTile.Origin = new Point16(1, 1); // Where cursor is on screen when places (middle of the tile)
-            TileObjectData.newTile.CoordinateHeights = new int[] { 16, 16 }; // How many pixels in pink square
+            TileObjectData.newTile.CoordinateHeights = new int[] { 16, 16 }; // How many pixels in pink square in height
             TileObjectData.addTile(Type);
             // FIXME: AddMapEntry
             // AddMapEntry(new Color(255, 255, 255));
@@ -24,7 +24,7 @@ namespace HelloWorld.Tiles
         }
         public override void KillMultiTile(int i, int j, int frameX, int frameY)
         {
-            Item.NewItem(new Rectangle(i, j, 16, 16), mod.ItemType("MyFirstTile"));
+            Item.NewItem(i * 16, j * 16, 32, 48, mod.ItemType("MyFirstTile"));
         }
         public override void ModifyLight(int i, int j, ref float r, ref float g, ref float b)
         {
