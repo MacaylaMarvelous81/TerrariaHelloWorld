@@ -1,11 +1,9 @@
 ﻿<Properties StartupItem="HelloWorld.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Items\UILauncher.cs">
     <Files>
-      <File FileName="Items\SuperOPSword.cs" Line="1" Column="1" />
-      <File FileName="Items\BlueDirt.cs" Line="1" Column="1" />
-      <File FileName="Tiles\BlueDirt.cs" Line="21" Column="64" />
-      <File FileName="HelloWorld.cs" Line="8" Column="4" />
+      <File FileName="Items\UILauncher.cs" Line="34" Column="30" />
+      <File FileName="HelloWorld.cs" Line="14" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
