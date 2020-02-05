@@ -13,12 +13,12 @@ namespace HelloWorld.Tiles
             Main.tileLighted[Type] = true;
             Main.tileFrameImportant[Type] = true;
             Main.tileSolid[Type] = true;
-            TileObjectData.newTile.CopyFrom(TileObjectData.Style1x1Wall);
+            TileObjectData.newTile.CopyFrom(TileObjectData.Style1x1);
             TileObjectData.newTile.Width = 1;
             TileObjectData.newTile.Height = 1;
             TileObjectData.newTile.Origin = new Point16(0, 0);
-            TileObjectData.newTile.CoordinateHeights = new int[] { 16, 16 };
-            TileObjectData.newTile.
+            // TileObjectData.newTile.CoordinateHeights = new int[] { 16, 16 };
+			TileObjectData.newTile.CoordinateHeights = new int[] { 16 };
             TileObjectData.addTile(Type);
             drop = mod.ItemType("BlueDirt"); // unlikw MyFirstTile, BlueDirt isn't a multi tile sooo...
         }
