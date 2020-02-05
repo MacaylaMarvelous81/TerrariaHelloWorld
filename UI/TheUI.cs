@@ -28,7 +28,7 @@ namespace HelloWorld.UI
 			button.Width.Set (100, 0);
 			button.Height.Set (50, 0);
 			button.HAlign = 0.5f;
-			button.Top.Set (25, 0);
+			button.Top.Set (35, 0);
 			button.OnClick += OnButtonClick;
 			panel.Append (button);
 			text = new UIText ("Click me!");

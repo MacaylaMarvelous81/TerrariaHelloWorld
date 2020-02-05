@@ -2,6 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.UI;
+using Terraria.Audio;
 using Microsoft.Xna.Framework;
 
 namespace HelloWorld.Items
@@ -25,7 +26,9 @@ namespace HelloWorld.Items
 			item.knockBack = 0;
 			item.value = 42;
 			item.rare = 2;
-			item.UseSound = SoundID.Item1;
+			// item.UseSound = SoundID.MenuOpen;
+			// item.UseSound = new LegacySoundStyle (SoundID.MenuOpen, SoundID.MenuOpen, Terraria.Audio.SoundType.Sound);
+			item.UseSound = null;
 			item.autoReuse = false;
 		}
 		// https://tmodloader.github.io/tModLoader/html/class_terraria_1_1_mod_loader_1_1_mod_item.html#a69d1426d0848927a3d7e25c023d90ddc
@@ -33,8 +36,10 @@ namespace HelloWorld.Items
 		{
 			if (HelloWorld.MyUIVisible) {
 				HelloWorld.HideMyUI ();
+				Main.PlaySound (new LegacySoundStyle (SoundID.MenuClose, SoundID.MenuClose, Terraria.Audio.SoundType.Sound));
 			} else {
 				HelloWorld.ShowMyUI ();
+				Main.PlaySound (new LegacySoundStyle (SoundID.MenuOpen, SoundID.MenuOpen, Terraria.Audio.SoundType.Sound));
 			}
 			return true;
 		}
