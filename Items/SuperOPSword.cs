@@ -1,6 +1,9 @@
 ﻿using Terraria.ID;
 using Terraria.ModLoader;
 namespace HelloWorld.Items {
+	/// <summary>
+	/// Super OP Sword weapon.
+	/// </summary>
     public class SuperOPSword : ModItem
     {
         public override void SetStaticDefaults()

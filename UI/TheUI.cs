@@ -4,8 +4,14 @@ using Terraria.GameContent.UI.Elements;
 
 namespace HelloWorld.UI
 {
+	/// <summary>
+	/// UI menu for MyUI.
+	/// </summary>
 	public class TheUI : UIState
 	{
+		/// <summary>
+		/// This is a UI element that should be initiated later. It is used so it can be accessed on OnButtonClick and not just OnInitialize.
+		/// </summary>
 		private UIText text; // to init later
 		public TheUI ()
 		{

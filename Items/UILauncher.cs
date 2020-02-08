@@ -7,6 +7,9 @@ using Microsoft.Xna.Framework;
 
 namespace HelloWorld.Items
 {
+	/// <summary>
+	/// UI Launcher item.
+	/// </summary>
 	public class UILauncher : ModItem
 	{
 		public override void SetStaticDefaults()

@@ -6,6 +6,9 @@ using Terraria.ModLoader;
 using Terraria.ObjectData;
 namespace HelloWorld.Tiles
 {
+	/// <summary>
+	/// Tile for Blue Dirt.
+	/// </summary>
     public class BlueDirt : ModTile
     {
         public override void SetDefaults()

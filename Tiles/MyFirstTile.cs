@@ -6,6 +6,9 @@ using Terraria.ModLoader;
 using Terraria.ObjectData;
 namespace HelloWorld.Tiles
 {
+	/// <summary>
+	/// Tile for My First Tile.
+	/// </summary>
     public class MyFirstTile : ModTile
     {
         public override void SetDefaults()

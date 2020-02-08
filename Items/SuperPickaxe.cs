@@ -2,6 +2,9 @@
 using Terraria.ModLoader;
 namespace HelloWorld.Items
 {
+	/// <summary>
+	/// Super pickaxe.
+	/// </summary>
     public class SuperPickaxe : ModItem
     {
         public override void SetStaticDefaults()

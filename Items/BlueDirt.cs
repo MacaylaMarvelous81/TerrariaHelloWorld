@@ -2,6 +2,9 @@
 using Terraria.ModLoader;
 namespace HelloWorld.Items
 {
+	/// <summary>
+	/// Item for Blue Dirt.
+	/// </summary>
     public class BlueDirt : ModItem
     {
         public override void SetStaticDefaults()

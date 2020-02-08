@@ -43,6 +43,7 @@
     <Compile Include="Tiles\BlueDirt.cs" />
     <Compile Include="Tiles\MyFirstTile.cs" />
     <Compile Include="UI\TheUI.cs" />
+    <Compile Include="NPCs\Cubiny.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -66,4 +67,7 @@
   <PropertyGroup>
     <PostBuildEvent>"C:\Program Files (x86)\Steam\steamapps\common\terraria\tModLoaderServer.exe" -build "$(ProjectDir)\" -eac "$(TargetPath)"</PostBuildEvent>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="NPCs\" />
+  </ItemGroup>
 </Project>

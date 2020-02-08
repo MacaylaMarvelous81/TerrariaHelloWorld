@@ -2,6 +2,9 @@
 using Terraria.ModLoader;
 namespace HelloWorld.Items
 {
+	/// <summary>
+	/// Item for My First Tile.
+	/// </summary>
     public class MyFirstTile : ModItem
     {
         public override void SetStaticDefaults()

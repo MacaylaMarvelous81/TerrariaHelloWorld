@@ -3,6 +3,9 @@ using Terraria.ModLoader;
 
 namespace HelloWorld.Items
 {
+	/// <summary>
+	/// Super sword weapon.
+	/// </summary>
 	public class SuperSword : ModItem
 	{
 		public override void SetStaticDefaults()
